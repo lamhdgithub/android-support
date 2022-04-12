@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".feature.setting.SettingFragment">
+
+    <com.dev.coding.views.widget.image.AppImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="@dimen/icon_size_huge"
+        android:layout_height="@dimen/icon_size_huge"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/size_16"
+        android:layout_marginTop="@dimen/size_20"
+        android:background="@drawable/ic_launcher_foreground"
+        app:imgCircle="true" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Logout" />
+</LinearLayout>

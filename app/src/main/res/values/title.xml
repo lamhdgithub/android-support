@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_users">Users</string>
+    <string name="title_user_details">User Details</string>
+    <string name="title_personal_information">Personal information</string>
+    <string name="title_personal_phone">Phone number</string>
+    <string name="title_personal_address">Address</string>
+    <string name="title_personal_account">Login Info</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_tab_1">Tab 1</string>
+    <string name="title_tab_2">Tab 2</string>
+    <string name="title_help">Help</string>
+</resources>

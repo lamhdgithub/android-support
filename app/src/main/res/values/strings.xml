@@ -1,0 +1,10 @@
+<resources>
+    <!--Include message and error-->
+    <string name="app_name">Coding Challenge</string>
+    <string name="error_blank_email">Email should not be blank</string>
+    <string name="error_blank_password">Password should not be blank</string>
+    <string name="msg_login_success">Login success</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+</resources>

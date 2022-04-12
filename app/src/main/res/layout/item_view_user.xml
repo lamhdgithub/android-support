@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:background="?android:selectableItemBackground"
+    android:layout_height="wrap_content">
+
+    <com.dev.coding.views.widget.image.AppImageView
+        android:id="@+id/imgAvatar"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_width="@dimen/icon_size_large"
+        android:layout_height="@dimen/icon_size_large"
+        android:layout_marginHorizontal="@dimen/size_10"
+        android:background="@drawable/orange_circle"
+        app:imgCircle="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/size_10"
+        android:layout_toEndOf="@+id/imgAvatar"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Ken Nguyen" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="kennguyen@wmd.com" />
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="(91) 3869-4608" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imgAvatar"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/size_10"
+        android:background="@color/gray" />
+
+</RelativeLayout>

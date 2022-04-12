@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_no_data">No Data</string>
+    <string name="label_username">User Name: %s</string>
+    <string name="label_age">Age: %s</string>
+    <string name="label_street">Street: %s %s</string>
+    <string name="label_city">City: %s</string>
+    <string name="label_state">State: %s</string>
+    <string name="label_post_code">PostCode: %s</string>
+    <string name="label_cell_phone">Cell Phone: %s</string>
+    <string name="label_password">Password: %s</string>
+    <string name="label_gender">Gender: %s</string>
+    <string name="label_email">Email: %s</string>
+    <string name="label_phone">Phone: %s</string>
+</resources>
